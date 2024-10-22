@@ -7,6 +7,10 @@ import CANNON from 'cannon'
  * Debug
  */
 const gui = new GUI()
+gui.domElement.style.position = 'absolute'
+gui.domElement.style.left = '50%'
+gui.domElement.style.transform = 'translateX(-50%)'
+
 const debugObject = {}
 debugObject.createSphere = () =>
 {
